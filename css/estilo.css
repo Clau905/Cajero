@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box ;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+   -webkit-bakground-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #1b0f3b;
+
+}
+
+
+
+ .contenedor{
+   
+    background-color: rgb(112, 112, 122);
+    padding-top: 10px;
+    width: 90%;
+    max-width: 750px;
+    margin: auto;
+    padding-left: 20px;
+    margin-top:100pX;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    box-shadow :10px;
+    margin-top: 50px;
+
+
+}
+
+.contenedor .formheader {
+    
+    font-weight: normal;
+    font-family: sans-serif;
+    color:#ece7e3;
+    padding-bottom: 10px;
+    
+}
+.contenedor .formheader .formtitulo{
+    
+    color:rgb(39, 55, 39);
+}
+
+.contenedor .form {
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+}
+
+.contenedor .form .calculadora{
+    position:relative;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background: rgb(31, 10, 122);
+   
+}
+
+.contenedor .form .derecha{ 
+    
+    position: relative;
+    padding-top: 60px;   
+    width:40%;
+   
+    margin-left: 100px;
+}
+
+.contenedor .form .derecha .btn{
+
+    font-size: 18px;
+ }
+ .contenedor .form .derecha .mensaje{
+    font-style: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(187, 65, 46);
+ }
+
+.contenedor .form .calculadora .fila {
+   
+
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+   
+}
+
+.contenedor .form .calculadora .fila .teclado{
+
+    width: 80px;
+    height: 80px;
+    background-color: #020100;
+    color: #fff;
+    font-size: 25px;
+    margin:auto;
+
+
+}
+.contenedor .form  .calculadora .fila .teclado:hover{
+    cursor: pointer;
+    border:1px solid  yellowgreen;
+    color:aqua;
+
+
+}       
+.contenedor .form .calculadora .fila .teclado0{
+
+    width: 80px;
+    height: 80px;
+    background-color: #0e0a05;
+    color: #fff;
+    font-size: 25px;
+   
+    visibility: hidden;
+
+
+}
+
+.operador{
+    background-color: rgb(247, 247, 248);
+    
+    margin: auto;
+    margin-top: 40px;
+    width:50% ;
+    height: 500px;
+    border-radius: 7%;
+
+
+
+}
+.operador .seccion1 {
+
+    background-color: rgb(151, 151, 231);
+    height: 20%;
+    border:2px solid red;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.operador .seccion2 {
+
+    background-color: rgb(43, 43, 96);
+    height: 70%;
+    border:2px solid rgb(28, 26, 26);
+
+}
