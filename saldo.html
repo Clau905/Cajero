@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>CONSULTA DE SALDO     
+    </title>
+</head>
+<body>
+    <div class="header">
+        <div><img src="img/logo1.jpg" alt="" class="logo"></div> 
+        <div>  <p>CONSULTA DE SALDO</p>  </div>
+      </div>
+    </div>
+
+    <div class="contenedor">
+        <div></div>
+        <div class="centroGrid">
+            
+            <div class="frmGridSaldo">
+                <div class="tablitaSaldo">
+                    <div class="labelSaldoTit" id="r0"><p >Banco de La Ciudad de La Plata </p></div>
+            
+                    <div  id="r1" >
+
+                        <p class="labelSaldo" >Titular de la Cuenta </p>
+                        <p class="labelSaldo"></p>
+                        <p class="labelSaldo" id="nom"></p>
+                       
+                    </div>
+                    <div  id="r2">
+                        <p class="labelSaldo" >Fecha</p>
+                        <p class="labelSaldo">Hora</p>
+                        <p class="labelSaldo" >Terminal </p>    
+                    </div>
+                    <div   id="r3">
+                        <p class="labelSaldo" id="fechaHoy" ></p>
+                        <p class="labelSaldo" id="hora"></p>
+                        <p class="labelSaldo" >001 </p>
+                    </div>
+                    <div  id="r4"> 
+                        <p class="labelSaldo" >Cuenta</p>
+                        <p class="labelSaldo"></p>
+                        <p id="cbu" class="labelSaldo" >nro cbu</p>
+                    </div>
+                    
+                    <div  id="r5"> 
+                        <p class="labelSaldo" >Moneda</p>
+                        <p class="labelSaldo"></p>
+                        <p class="labelSaldo" >Pesos</p>
+                    </div>
+
+                   
+               
+                    <div  id="r7">    
+                        <p class="labelSaldo" >Saldo</p>
+                        <p class="labelSaldo"></p>
+                        <p id="saldo" class="labelSaldo"  ></p>         
+                    </div>
+
+                    <div  id="r8" >    
+                        <p class="labelSaldo" >Saldo Disponible</p>
+                        <p class="labelSaldo"></p>
+                        <p class="labelSaldo" >$20.000</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="xVerticalx2" >
+               
+                <div class="bot1">
+                    
+                    <p class="labelSaldo">Otra Operacion</p>
+                    <button id="verde" class="btnCuadV"></button>
+                    
+                </div>    
+                
+                <div class="bot1">     
+                    <p class="labelSaldo">Salir =======</p>
+                    <button id="rojo" class="btnCuadR" ></button>
+                </div>   
+
+               
+                   
+            </div>
+        </div>
+        
+   </div> 
+   
+   <div class="footer">
+        <p>Banco de La Ciudad de La Plata - Terminal 001 - </p>
+   </div>
+   <script src="js/luxon.js"></script>    
+    <script src="js/clases.js"></script>    
+    <script src="js/saldo.js"></script>
+</body>
+</html>

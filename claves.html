@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cajero.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>CLAVES - CAMBIO DE PIN </title>
+</head>
+<body>
+    <div class="header">
+      <div><img src="img/logo1.jpg" alt="" class="logo"></div> 
+      <div>  <p>CAMBIO DE PIN ATM</p>  </div>
+    </div>
+    <div class="contenedor">
+   
+        <div class="izqPequenia"> 
+            <div class="calculadora">
+
+                <div class="fila">
+                    <input type="submit"class="teclado" value="1" id="1">      
+                    <input type="submit"class="teclado" value="2" id="2">
+                    <input type="submit"class="teclado" value="3" id="3">
+                </div>
+
+                <div class="fila">
+                    <input type="submit"class="teclado" value="4" id="4">
+                    <input type="submit"class="teclado" value="5" id="5">
+                    <input type="submit"class="teclado" value="6" id="6">
+                </div>
+
+                <div class="fila">
+                    <input type="submit"class="teclado" value="7" id="7">
+                    <input type="submit"class="teclado" value="8" id="8">
+                    <input type="submit"class="teclado" value="9" id="9">
+                </div>
+
+                <div class="fila">
+                    <input type="submit"class="teclado0" >
+                    <input type="submit"class="teclado" value="0" id="0">
+                    <input type="submit"class="teclado0">
+                            
+                </div>
+            </div>
+        </div> 
+        
+
+        <div class="centro">
+            <div class="tablita">
+
+                <div class="renglon0"><p > Cambio de PIN de cuatro digitos</p> </div>
+                
+                <div class="renglon"><p id="nom"></p> </div>
+                
+                <div class="renglon"> </div>
+
+
+                <div class="renglon1">Ingrese su PIN actual:</div>
+                <p id="pin" class="ingresoCorto" type="text" maxlength="4" contenteditable="false"> </p>
+
+                <div   class="renglon1"  id="divpin1">Ingrese su nuevo PIN : </div>
+                <p id="pin1" class="ingresoCorto" type="text" contenteditable="false"></p>
+
+                <div  id="divpin2" class="renglon1" >Repita su nuevo PIN :</div>
+                <p id="pin2" class="ingresoCorto" type="text" contenteditable="false"></p>
+              
+                <p  id="mensaje" class="mensaje"> </p>
+              
+            </div>
+        </div>
+   
+        <div class="derPequenia"> 
+            <div><button class="btnPeq"  id="conf"></button> </div>
+            <div  class="tex">Confirma</div>
+            <div><button class="btnPeq"  id="borra"></button>   </div>
+            <div  class="tex">Modifica</div>
+            <div><button class="btnPeq"  id="sale">   </button>  </div>
+            <div class="tex">Cancelar</div>
+        </div>
+   
+    </div>
+    <div class="footer">
+       <p>Banco de La Ciudad de La Plata - Terminal 001 - </p>
+    </div>
+    <script src="js/clases.js"></script>
+    <script src="js/claves.js"></script>
+
+</body>
+</html>

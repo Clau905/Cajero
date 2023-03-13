@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMULADOR CAJERO AUTOMATICO</title>
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    
+    <link rel="stylesheet" href="css/cajero.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+            
+    <div class="header">
+        <div><img src="img/logo1.jpg" alt="" class="logo"></div> 
+        <div>  <p>INGRESE EL MONTO A EXTRAER</p>  </div>
+       
+    </div>
+
+
+
+
+    <div class="contenedor">
+        <div></div>
+        <div class="centro">
+
+        <div class="frmGrid">
+
+            <div class="calculadora">
+
+                <div class="fila">
+                    <input type="submit"class="teclado" value="1" id="1">      
+                    <input type="submit"class="teclado" value="2" id="2">
+                    <input type="submit"class="teclado" value="3" id="3">
+                </div>
+
+                <div class="fila">
+                    <input type="submit"class="teclado" value="4" id="4">
+                    <input type="submit"class="teclado" value="5" id="5">
+                    <input type="submit"class="teclado" value="6" id="6">
+                </div>
+
+                <div class="fila">
+                    <input type="submit"class="teclado" value="7" id="7">
+                    <input type="submit"class="teclado" value="8" id="8">
+                    <input type="submit"class="teclado" value="9" id="9">
+                </div>
+
+                <div class="fila">
+                    <input type="submit"class="teclado0" >
+                    <input type="submit"class="teclado" value="0" id="0">
+                    <input type="submit"class="teclado0">
+                            
+                </div>
+            </div>
+
+                
+            <div class="derechaGrid">
+         
+            
+                <div> <p id="name">     </p> </div>
+                <div class="ingreso" >
+                    
+                    <h2>$</h2>   <p id="pesos" type="text"  contenteditable="false"></p>
+                </div>
+                <p class="mensaje" id ="r2"> </p>
+                   
+                <div class="xVerticalx2" >
+               
+                    <div class="bot1">
+                            
+                        <p class="labelSaldo">Confirma ======== </p>
+                        <button id="verde" class="btnCuadV"></button>
+                            
+                    </div>    
+                        
+                    <div class="bot1">     
+                         <p class="labelSaldo">Cancela ========= </p>
+                        <button id="rojo" class="btnCuadR" ></button>
+                    </div>   
+        
+                       
+                           
+                </div>
+                          
+                     
+            </div>  
+        </div>
+        </div>
+    
+    </div> 
+
+
+
+
+    <div class="footer">
+        <p>Banco de La Ciudad de La Plata - Terminal 001 - </p>
+    </div>
+   
+    <script src="js/clases.js"></script>
+    <script src="js/otroi.js"></script>
+        <script src="https://kit.fontawesome.com/ed3dd8cd13.js" crossorigin="anonymous"></script>
+    </body>
+</html>

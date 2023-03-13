@@ -1,0 +1,693 @@
+*{
+
+margin: 0px;
+padding: 0;
+
+
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+background-color: #f8fbfb;
+color: black;
+
+
+
+}
+.header {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    width: 80%;
+    max-width: 1200px;
+    min-width: 700px;
+   
+    margin: auto;
+    font-size: 20px;
+    
+    margin-top: 70px;
+    
+    background-color: #FF7D87;
+}
+.header p {
+    
+padding-left: 10px;
+margin: auto;
+color:rgb(37, 41, 29);
+text-align: center;
+padding-top: 30px;
+
+
+}
+.header .logo{
+    
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 90px;
+    height: 90px;
+    
+    }
+.footer {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    width:80%;
+    max-width: 1200px;
+    min-width: 700px;
+    text-align: center;
+    padding: 20px 0;
+  
+    margin: auto;
+    line-height: 20px;
+    background-color: #FF7D87;
+}
+.contenedor{
+    display:grid;
+   
+    grid-template-columns: 1fr 600px 1fr;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+   
+    
+    width:90%;
+    max-width: 1200px;
+    min-width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    font-size: 18px;
+   
+}
+
+
+
+.contenedor .izq{
+    display: grid;
+    align-items:normal;
+    grid-template-columns:  20%  auto;
+    
+    font-size: 18px;
+    line-height: 60px;
+    
+    border: 1px solid salmon;
+    margin-right: 0;
+    border-radius: 10px;
+    padding:14px;
+
+   
+}
+.izqPequenia{
+    display: grid;
+    align-items:normal;
+
+   
+   
+ 
+    border: 1px solid salmon;
+    margin-right: 0;
+    border-radius: 10px;
+   
+   
+  
+
+   
+   grid-template-columns: 200px;
+   grid-template-rows: 250px;
+   background: rgb(245, 228, 231);
+   justify-self:end;
+
+
+
+}
+.derPequenia{
+    display: grid;
+    width: 200px;
+    align-items:normal;
+    grid-template-columns:  20%  auto;
+    
+    font-size: 14px;
+    line-height: 40px;
+    
+    border: 1px solid salmon;
+    margin-right: 0;
+    border-radius: 10px;
+    padding:14px;
+    align-content:flex-end;
+   
+
+}
+
+.contenedor .der{
+display: grid;
+align-items:normal;
+grid-template-columns:  auto 20%;
+
+font-size: 18px;
+line-height: 60px;
+
+border: 1px solid salmon;
+margin-right: 0;
+border-radius: 10px;
+padding:14px;
+   
+    
+}
+
+
+.contenedor .izq .tex{
+ 
+display: block;
+font-size: 14px;
+
+text-align: left;
+border: 2px solid #FF7D87;
+border-radius: 10px;
+height:60px;
+
+
+padding-left: 5px;
+
+
+
+}
+
+
+.contenedor .der .tex{
+  
+display: block;
+text-align: right;
+border: 2px solid #FF7D87;
+height:60px;
+
+font-size: 14px;
+border-radius: 10px;
+padding-right: 5px;
+
+
+
+}
+
+.contenedor .izq .texPesos{
+ 
+    display: block;
+    font-size: 18px;
+    color:#E71D32;
+    
+    text-align: left;
+    border: 2px solid #FF7D87;
+    height:60px;
+    
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-left: 0;
+    
+    
+    }
+    .contenedor .der .texPesos{
+ 
+        display: block;
+        font-size: 18px;
+        color:#E71D32;
+        
+        text-align: right;
+        border: 2px solid #FF7D87;
+        height:60px;
+        
+        border-radius: 10px;
+        padding-right: 5px;
+        margin-right: 2px;
+        
+        
+        }
+
+.centro{
+  
+    display: block;
+    border-radius: 10px;
+    padding:14px;
+    border: 1px solid salmon;
+    margin-right: 3px;
+    margin-left: 3px;
+    
+    
+
+}
+.contenedor .centroSolo{
+    display: block;
+    width: 60%;
+    border-radius: 10px;
+    padding:14px;
+    border: 5px solid salmon;
+    margin-right: 3px;
+    margin-left: 3px;
+    height: 300px;
+}
+
+.btn{
+  
+    width: 50px;
+    height:60px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    background-color:#E71D32 ; 
+    text-decoration: none;
+    border:none;
+    padding-top: 10px;
+   
+}
+
+.btnPeq{
+  
+    width: 30px;
+    height:30px;
+    
+    text-align: center;
+    font-size: 14px;
+    background-color:#E71D32 ; 
+    text-decoration: none;
+    border:none;
+    padding-top: 10px;
+   
+}
+.btnPeq:hover{
+  
+    background-color:#709FB0 ;
+    text-decoration:none;
+	cursor:pointer;
+
+    }
+.btn:hover{
+  
+    background-color:#709FB0 ;
+    text-decoration:none;
+	cursor:pointer;
+
+    }
+.btnCentroSolo{
+    
+   
+    width: 100px;
+    height: 40px; 
+    line-height: 18px;
+    font-size: 14px;
+    background-color:#E71D32 ;
+    color:white;
+    border: none;
+    margin-bottom: 3px; 
+    border-radius: 12px;
+   
+
+    
+}
+.btnCentroSolo:hover{
+  
+    background-color:#f36080 ;
+    text-decoration:none;
+	cursor:pointer;
+
+}
+
+
+.btnlimpia:hover{
+
+	cursor:pointer;
+
+}
+.btnClave{
+
+width: 90px;
+align-self: center;
+justify-self:center;
+font-size: 30px;
+border: none;
+text-align: center;
+
+}
+.arriba{ 
+    background-color:red;
+}
+
+.cajacentro{
+    display: flex;
+    background-color:#858786;
+    }
+.abajo{
+    display: inline-block;
+    background-color:#858786;
+       
+    }
+    
+#elegido{
+display: block;
+text-align: center;
+width: 100%;
+
+color:#007965;
+font-size: 30px;
+
+margin-top: 20px;
+
+background: none;
+}
+
+/*-------------------------------------------------------------*/
+
+
+
+.titulos{
+
+
+font-size:16px ;
+text-align: left;    
+line-height: 20px;
+justify-content: center;
+background-color: #a91d29;
+border:1px solid  #a91d29;
+color:white;
+align-self: center;
+}
+
+.botones{
+    background-color:none;
+    border:1p solid black;
+  
+
+}
+
+.x{
+
+   display:block;
+ 
+
+} 
+.xVertical{
+    display:inline-block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+ } 
+
+.tablita{
+    display:grid;
+    grid-template-rows:30px 30px 30px 30px 30px 50px 50px;
+    grid-template-columns: 310  280px;
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
+
+}
+.derechaGrid p{
+
+
+    margin-top: 5px;
+}
+.derechaGrid{
+    display:grid;
+    grid-template-columns: 250px;
+    grid-template-rows:1fr 40px fr 1fr 30px 1fr ifr  ;
+
+}
+header{
+    grid-area: header;
+    background-color: #a91d ;
+     display: block;
+    height: 250px;
+    }
+
+.cajaarriba{
+    height: 30px;
+    display:block;
+    margin-top: 2px;
+    
+}
+.cajaarriba p{
+   
+    
+    font-size:20px ;
+    width: 100%;
+    line-height: 20px;
+    background-color: #a91d29;
+    border:1px solid  #a91d29;
+    color:white;
+    
+ 
+    
+}
+.cajaabajo{
+    height:200px;
+    
+    }
+.centroGrid{
+    display:grid;
+    grid-template-columns: 60% 40% ;
+    width:680px;
+    border :2px solid salmon;
+    border-radius: 5px;
+    font-size: 14px;
+    
+}
+
+.admin{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-bottom: 3px;
+    justify-self: end;
+    margin-right: 3px;
+    margin-top: 3PX;
+    cursor:pointer;
+    
+}
+.frmGridSaldo{
+
+width: 350px;
+display:grid;
+justify-self: center;
+align-self: center;
+
+}
+.tablitaSaldo{
+    justify-items: center;
+    display:grid;
+    width: 430px;
+    height: 250px;
+    line-height: 10px;
+   
+    
+    font-size: 12px;
+    background-color: white;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
+    border:0.5px solid grey;
+}
+
+   
+
+.tablitaSaldo p{
+    font-family: 'Inconsolata', monospace;
+    display: inline-block;
+    width: 110px;
+    padding-left:0;
+    font-size: 12px;
+    border:none;
+    background-color: none;
+    color:rgb(24, 11, 11);
+    text-align: center;
+}
+.tablitaSaldo div{
+line-height: 15px;
+align-self: center;
+
+}
+.labelSaldoTit  p{
+    display:inline-block;
+    font-family: 'Inconsolata', monospace;
+    padding-left: 0%;
+    width:350px;
+    margin-right: 10px;
+    font-size: 14px;
+    border:none;
+    padding: 2px 2px;
+    justify-items: center;
+    text-align: center;
+}
+.xVerticalx2{
+    padding-right: 5px;
+    height: 80px;
+    display:inline-block;
+    width: 159px;
+    font-size: 12px;
+    
+    align-self: self-end;
+    justify-self:end;
+    margin-right: 5px;
+   
+}
+
+.bot1{
+    align-items: center;
+    width: 158px;
+    display:inline-flex;
+    justify-content:space-between;
+    line-height: 40px;
+    height: 40px;
+    margin-right: 2px;
+}
+.btnCuadV{
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color:green;
+    border:none;
+    cursor:pointer;
+}
+.btnCuadR{
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border:none;
+
+    cursor:pointer;
+    
+ }
+ .btnCuadV:hover{
+
+    background-color:rgb(174, 216, 174);
+ }
+ .btnCuadR:hover{
+
+    background-color: rgb(204, 139, 139);
+ }
+
+
+
+ .gridCartel{
+
+   display:grid;
+   grid-template-rows: 60px 60px 60px 60px;
+   line-height: 60px;
+   font-size: 14px;
+
+
+ }
+ .renglon0{
+    line-height: 15px;
+    grid-column: 1 / span 2;
+    border:1p solid  #a91d29;
+    background-color: #a91d29;
+    color:white;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.renglon1{
+    padding: 5px;
+    justify-self:end;
+    border:1p solid black;
+}
+.renglon{
+    padding: 5px;
+    grid-column: 1 / span 2;
+    border:1p solid black;
+    
+}
+.renglon p{
+    padding: 5px;
+    grid-column: 1 / span 2;
+    border:1p solid black;
+}
+.renglon2{
+  
+    padding: 5px;
+    grid-column: 1 / span 2;
+    justify-self: end;
+  
+}
+.lineasborrar{
+width:100%;
+height: 30px;
+line-height: 30px;
+
+
+}
+.ingreso{
+    justify-content: center;
+    display: inline-flex;
+}
+
+.ingreso p{
+    margin-left: 5px;
+    width: 200px;
+    
+    font-size: 25px;
+    line-height: 20px;
+    
+    padding-top: 10px ;
+    border:1px solid salmon;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+.ingreso h2{
+    margin-right: 5px;
+    width:50px;
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: right;
+ 
+}
+
+.ingresolargo p{
+    margin-left: 5px;
+    width: 240px;
+    height: 23px;
+    font-size: 20px;
+  
+    
+  
+    border:1px solid salmon;
+    justify-content: start;
+    align-content: center;
+    
+
+}
+.transf{
+    height: 60px;
+    padding-top: 15px;
+   
+    text-align: left;
+    width: 100%;
+    line-height: 18px;
+    color:black;
+    background-color: salmon;
+    margin-bottom: 15px;
+   
+}
+.ingresoCorto{
+
+width: 50px;
+margin-left: 5px;
+   
+height: 23px;
+font-size: 20px;
+  
+    
+  
+border:1px solid salmon;
+justify-content: start;
+align-content: center;
+
+}
+
+.transf p{
+
+    font-size: 12;     
+    color:black;
+    background-color: #dfd3d4;
+ }
+
+
